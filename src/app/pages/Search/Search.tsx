@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchField from '../../components/SearchField/SearchField';
-import styles from './ForgotPassword.module.css';
+import styles from './Search.module.css';
 
 function Search(): JSX.Element {
   const [search, setSearch] = useState('');
