@@ -8,6 +8,7 @@ import Login from './pages/Login/Login';
 import MovieDetails from './pages/MovieDetails/MovieDetails';
 import TVShowDetails from './pages/TVShowDetails/TVShowDetails';
 import styles from './App.module.css';
+import Search from './pages/Search/Search';
 
 type CustomRouteProps = RouteProps & {
   Component: () => JSX.Element;
@@ -22,6 +23,7 @@ const routes: CustomRouteProps[] = [
   { path: '/register', Component: RegisterForm },
   { path: '/cast/:name', Component: Cast },
   { path: '/show/:id', Component: TVShowDetails },
+  { path: '/search', Component: Search },
 ];
 
 function App(): JSX.Element {
